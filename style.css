@@ -1,11 +1,10 @@
 /*Overall html changes*/
 .torso {
-    width: 100vh;
-    height: 100vh;
-    background-color: blue;
-    align-items: center;
+    background-color: lightblue;
 }
 
-span {
+p, h1{
+    text-align: center;
+    font-size: larger;
     color: green;
 }
