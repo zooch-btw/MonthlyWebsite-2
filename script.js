@@ -1,12 +1,13 @@
 let userName = prompt('What is your name!?')
 let userQuest = prompt('Why have you come here?')
 let userFavColor = prompt('What is your favorite activity to do?')
-let swallowAirSpeed = prompt('What is your favoirte subject?')
+let swallowAirSpeed = prompt('What is your favoirte food?')
 
 
-// I will do this soon
+// actual story (with template literals)
  let myStory = ` 
  <div>
+ <p>Hello there ${userName}!</span> You have come here to do ${userQuest}</span> I see. Look at this recipe that you may like, and see what you need to do. I will see you at the next monthly website!</p>
  <p><u> Ingredients: </u></p>
 
 <p>2 cups all-purpose flour </p>
@@ -25,7 +26,8 @@ let swallowAirSpeed = prompt('What is your favoirte subject?')
 <p>Roll and Cut: Roll the dough out thinly on a lightly floured surface. Use a round cutter (about 4 inches in diameter) to cut out circles. </p>
 <p>Form the Shells: Wrap each circle around a metal cannoli tube, sealing the edges with a little beaten egg. </p>
 <p>Fry the Shells: In a large, heavy pot, heat about 2 inches of vegetable oil to 350°F (175°C). Fry each shell until golden brown, about 2-3 minutes. Let the shells cool slightly, then carefully remove them from the tubes. Cool completely on a wire rack. </p>
-<p>Cannoli Filling: </p>
+<p><u>Cannoli Filling: </u> </p>
+<img src="imgs/cannoli filling2.jpg">
 <p><u>Ingredients:</u></p>
 
 <p>1 1/2 cups ricotta cheese (drain well if it’s too wet) </p>
