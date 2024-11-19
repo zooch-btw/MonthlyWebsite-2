@@ -1,7 +1,17 @@
 let userName = prompt('What is your name!?')
 let userQuest = prompt('Why have you come here?')
 let userFavColor = prompt('What is your favorite activity to do?')
-let swallowAirSpeed = prompt('What is your favoirte food?')
+let orange = prompt('Is orange a color or a fruit?')
+
+    if(orange.toLowerCase() == 'color'){
+        alert('You chose color.')
+    }
+    else if(orange.toLowerCase() == 'fruit'){
+        alert("You chose fruit.")
+    }
+    else {
+        alert("You did not listen")
+    }
 
 
 // actual story (with template literals)
@@ -26,8 +36,8 @@ let swallowAirSpeed = prompt('What is your favoirte food?')
 <p>Roll and Cut: Roll the dough out thinly on a lightly floured surface. Use a round cutter (about 4 inches in diameter) to cut out circles. </p>
 <p>Form the Shells: Wrap each circle around a metal cannoli tube, sealing the edges with a little beaten egg. </p>
 <p>Fry the Shells: In a large, heavy pot, heat about 2 inches of vegetable oil to 350°F (175°C). Fry each shell until golden brown, about 2-3 minutes. Let the shells cool slightly, then carefully remove them from the tubes. Cool completely on a wire rack. </p>
-<p><u>Cannoli Filling: </u> </p>
-<img src="imgs/cannoli filling2.jpg">
+<p><u>Cannoli Filling(What it should look like): </u> </p>
+<img src="imgs/cannoli filling2.jpg" class="piping">
 <p><u>Ingredients:</u></p>
 
 <p>1 1/2 cups ricotta cheese (drain well if it’s too wet) </p>
@@ -57,6 +67,25 @@ let swallowAirSpeed = prompt('What is your favoirte food?')
 <p>Enjoy your homemade cannoli!</p>
 </div>
 `
+var i = 0;
+function move() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar");
+    var width = 10;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "1%";
+        elem.innerHTML = width + "1%";
+      }
+    }
+  }
+}
 
 console.log(myStory)
 

@@ -8,3 +8,8 @@ p, h1{
     font-size: larger;
     color: green;
 }
+.piping {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
