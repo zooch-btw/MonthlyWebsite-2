@@ -1,6 +1,4 @@
 let userName = prompt('What is your name!?')
-let userQuest = prompt('Why have you come here?')
-let userFavColor = prompt('What is your favorite activity to do?')
 let orange = prompt('Is orange a color or a fruit?')
 
     if(orange.toLowerCase() == 'color'){
@@ -9,15 +7,17 @@ let orange = prompt('Is orange a color or a fruit?')
     else if(orange.toLowerCase() == 'fruit'){
         alert("Good Job :)")
     }
+    else if(orange.toLowerCase() == 'both'){
+        alert("Good Job :)")
+    }
     else {
         alert("maybe READ the question next time :(")
     }
-
-
+    
 // actual story (with template literals)
  let myStory = ` 
  <div class="box">
- <p>Hello there ${userName}! You have come here to do ${userQuest}, I see. Look at this recipe that you may like, and see what you need to do. I will see you at the next monthly website!</p>
+ <p>Hello there ${userName}! You think that orange can be ${orange}, I see. Look at this recipe that you may like, and see what you need to do. I will see you at the next monthly website!</p>
  </div>
 
 <div class="box">
