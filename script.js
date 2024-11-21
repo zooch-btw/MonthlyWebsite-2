@@ -1,23 +1,20 @@
-let userName = prompt('What is your name!?')
-let orange = prompt('Is orange a color or a fruit?')
+let userName = prompt("What is your name!?");
+let orange = prompt("Is orange a color or a fruit?");
 
-    if(orange.toLowerCase() == 'color'){
-        alert('Good Job :)')
-    }
-    else if(orange.toLowerCase() == 'fruit'){
-        alert("Good Job :)")
-    }
-    else if(orange.toLowerCase() == 'both'){
-        alert("Good Job :)")
-    }
-    else {
-        alert("maybe READ the question next time :(")
-    }
-    
+if (orange.toLowerCase() == "color") {
+  alert("Good Job :)");
+} else if (orange.toLowerCase() == "fruit") {
+  alert("Good Job :)");
+} else if (orange.toLowerCase() == "both") {
+  alert("Good Job :)");
+} else {
+  alert("maybe READ the question next time :(");
+}
+
 // actual story (with template literals)
- let myStory = ` 
+let myStory = ` 
  <div class="box">
- <p>Hello there ${userName}! You think that orange can be ${orange}, I see. Look at this recipe that you may like, and see what you need to do. I will see you at the next monthly website!</p>
+ <p>Hello there ${userName}! You think that orange can be a ${orange}, I see. Look at this wonderful cannoli recipe, and I will see you at the next monthly website!</p>
  </div>
 
 <div class="box">
@@ -74,7 +71,7 @@ let orange = prompt('Is orange a color or a fruit?')
 <p>Fill Just Before Serving: Fill the shells right before serving to keep them crispy.</p>
 <p>Enjoy your homemade <a href="https://www.cucinabyelena.com/best-authentic-sicilian-cannoli-recipe/">cannoli!</a></p>
 </div>
-`
-console.log(myStory)
+`;
+console.log(myStory);
 
-document.getElementById('story').innerHTML = myStory
+document.getElementById("story").innerHTML = myStory;
