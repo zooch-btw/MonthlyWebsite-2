@@ -14,7 +14,7 @@ if (orange.toLowerCase() == "color") {
 // actual story (with template literals)
 let myStory = ` 
  <div class="box">
- <p>Hello there ${userName}! You think that orange can be a ${orange}, I see. Look at this wonderful cannoli recipe, and I will see you at the next monthly website!</p>
+ <p>Hello there ${userName}! You think that orange can be a ${orange}, I see. Look at this wonderful cannoli recipe, and I will see you, ${userName} at the next monthly website!</p>
  </div>
 
 <div class="box">
@@ -28,6 +28,9 @@ let myStory = `
 <p>1/4 cup white wine or Marsala wine (use water as a substitute if needed) </p>
 <p>1 large egg, lightly beaten (for sealing the shells) </p>
 <p>Vegetable oil, for frying </p>
+</div>
+
+<div class="box">
 <p><u>Instructions:</u></p>
 
 <p>Make the Dough: In a large bowl, combine the flour, sugar, cinnamon, and salt. Cut in the butter or lard until the mixture is crumbly. </p>
@@ -38,11 +41,16 @@ let myStory = `
 <p>Fry the Shells: In a large, heavy pot, heat about 2 inches of vegetable oil to 350°F (175°C). Fry each shell until golden brown, about 2-3 minutes. Let the shells cool slightly, then carefully remove them from the tubes. Cool completely on a wire rack. </p>
 </div>
 
-<div class="box">
-<p><u>Cannoli Filling(What it should look like): </u> </p>
-<img src="imgs/cannoli filling2.jpg" class="piping">
-<p><u>Ingredients:</u></p>
 
+<div class="box">
+<p><u>Cannoli Filling (What it should look like): </u> </p>
+<img src="imgs/cannoli filling2.jpg" class="piping">
+</div>  `;
+
+let myStory2 = `
+
+<div class="box">
+<p><u>Ingredients:</u></p>
 <p>1 1/2 cups ricotta cheese (drain well if it’s too wet) </p>
 <p>1/2 cup mascarpone cheese (optional, for extra creaminess) </p>
 <p>1/2 cup powdered sugar (more or less to taste) </p>
@@ -50,6 +58,9 @@ let myStory = `
 <p>1/4 teaspoon ground cinnamon </p>
 <p>1/4 cup mini chocolate chips (optional) </p>
 <p>Zest of 1 orange (optional) </p>
+</div>
+
+<div class="box">
 <p><u>Instructions:</u></p>
 
 <p>Mix Filling: In a bowl, combine the ricotta, mascarpone, powdered sugar, vanilla, and cinnamon. Mix until smooth. </p>
@@ -64,7 +75,9 @@ let myStory = `
 <p>Additional mini chocolate chips, chopped pistachios, or candied orange peel for decorating the ends
 <p>Powdered sugar, for dusting</p>
 <p>Serve: Decorate the ends with chocolate chips or pistachios, and lightly dust with powdered sugar.</p>
+</div>
 
+<div class="box">
 <p><u>Tips for the Perfect Cannoli:</u></p>
 <p>Drain the Ricotta: If your ricotta is too watery, strain it in a cheesecloth overnight in the refrigerator.</p>
 <p>Crispy Shells: Make sure your oil is at the right temperature (350°F) to avoid soggy shells. </p>
@@ -74,4 +87,8 @@ let myStory = `
 `;
 console.log(myStory);
 
+console.log(myStory2);
+
 document.getElementById("story").innerHTML = myStory;
+
+document.getElementById("story2").innerHTML = myStory2;
