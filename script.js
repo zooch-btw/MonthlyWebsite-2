@@ -14,7 +14,7 @@ if (orange.toLowerCase() == "color") {
 // actual story (with template literals)
 let myStory = ` 
  <div class="box">
- <p>Hello there ${userName}! You think that orange can be a ${orange}, I see. Look at this wonderful cannoli recipe, and I will see you, ${userName} at the next monthly website!</p>
+ <p>Hello there ${userName}! You think that orange can be ${orange}, I see. Look at this wonderful cannoli recipe, and I will see you, ${userName} at the next monthly website!</p>
  </div>
 
 <div class="box">
