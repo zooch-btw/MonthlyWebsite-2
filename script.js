@@ -1,3 +1,4 @@
+// variables
 let userName = prompt("What is your name!?");
 let orange = prompt("Is orange a color or a fruit?");
 
@@ -83,8 +84,9 @@ let myStory2 = `
 <p>Crispy Shells: Make sure your oil is at the right temperature (350°F) to avoid soggy shells. </p>
 <p>Fill Just Before Serving: Fill the shells right before serving to keep them crispy.</p>
 <p>Enjoy your homemade <a href="https://www.cucinabyelena.com/best-authentic-sicilian-cannoli-recipe/">cannoli!</a></p>
-</div>
-`;
+</div> `;
+
+// actually pasting my story (in HTML-->IMPORTANT)
 console.log(myStory);
 
 console.log(myStory2);

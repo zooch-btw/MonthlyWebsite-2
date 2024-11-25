@@ -8,6 +8,12 @@ p, h1, a{
     color: pink;
 }
 
+.title {
+    padding-bottom: 6px;
+    }
+
+/*For the divs and lines*/
+
 .piping {
     display: block;
     margin-left: auto;
@@ -27,7 +33,4 @@ p, h1, a{
     /* Set the hr color */
     color: black;  /* old IE */
     background-color: black;  /* Modern Browsers */
-}
-.title {
-padding-bottom: 6px;
 }
